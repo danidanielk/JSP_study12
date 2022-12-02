@@ -1,0 +1,9 @@
+
+
+
+C.java(servlet) 을 실행 하게되면 forwarding 방식으로 V1.html에 도달
+V1.html 에 뭔가를 입력해서 버튼을 누르면
+포스트방식으로 C.java(servlet)에 요청을 하게된다.
+C.java(servlet) 에서 M.java(class) 에 호출하게되고 다시 
+M.java(class) 는 기능을 수행한 후 다시 C.java(servlet) 에게 리턴해준다.
+그럼 C.java(servlet)가 v2.jsp로 forwarding 되어서 결과가 출력되는 형태.
